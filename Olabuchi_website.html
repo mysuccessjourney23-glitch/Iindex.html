@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olabuchi Electrical Enterprises - Expert Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f7f9fc; }
+        .hero-bg { background: linear-gradient(135deg, #1a56cc 0%, #10b981 100%); } /* Blue to Green Gradient */
+        .accent-yellow { color: #ffbf00; } /* Energy */
+        .accent-green { color: #10b981; } /* Growth */
+        .accent-blue { color: #1a56cc; } /* Reliability */
+        .btn-primary { 
+            background-color: #ffbf00; 
+            color: #1a56cc; 
+            transition: all 0.3s; 
+            font-weight: 700;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary:hover { background-color: #ffc933; }
+        .card-shadow { box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+        .logo-text { font-size: 1.5rem; font-weight: 700; color: #1a56cc; }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="logo-text">OLABUCHI <span class="accent-green">ENTERPRISES</span></span>
+            </div>
+            <div class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="index.html" class="text-gray-600 hover:accent-blue">Homepage</a>
+                <a href="#services" class="text-gray-600 hover:accent-blue">Services</a>
+                <a href="#otvi" class="text-gray-600 hover:accent-blue">Training (OTVI)</a>
+                <a href="#contact" class="text-gray-600 hover:accent-blue">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-gray-600 hover:accent-blue">
+                    <!-- Placeholder for Mobile Menu Icon -->
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl sm:text-6xl font-extrabold mb-4 leading-tight">
+                    Expert Solutions for a <span class="accent-yellow">Powered Future</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-200 mb-8">
+                    Your trusted partner for certified Electrical, Solar, HVAC, and Security services in Owerri and the South-East region.
+                </p>
+                <a href="#contact" class="btn-primary py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition duration-300 text-base sm:text-lg">
+                    Request a Site Survey Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section id="services" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-10">Our Certified Services</h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <!-- Service 1 -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-lg card-shadow text-center border-t-4 border-[#1a56cc]">
+                    <h3 class="text-xl font-bold mb-3 accent-blue">Electrical Systems</h3>
+                    <p class="text-gray-600 text-sm">Full residential, commercial, and industrial installations, repairs, and panel upgrades.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-lg card-shadow text-center border-t-4 border-[#10b981]">
+                    <h3 class="text-xl font-bold mb-3 accent-green">Solar & Inverters</h3>
+                    <p class="text-gray-600 text-sm">Custom renewable energy design, installation, and long-term maintenance contracts.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-lg card-shadow text-center border-t-4 border-[#1a56cc]">
+                    <h3 class="text-xl font-bold mb-3 accent-blue">AC & HVAC</h3>
+                    <p class="text-gray-600 text-sm">Installation, maintenance, and complex troubleshooting for cooling and ventilation systems.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="p-6 bg-gray-50 rounded-xl shadow-lg card-shadow text-center border-t-4 border-[#ffbf00]">
+                    <h3 class="text-xl font-bold mb-3 accent-yellow">Security & CCTV</h3>
+                    <p class="text-gray-600 text-sm">Installation and integration of modern CCTV and access control systems for maximum safety.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OTVI Training Arm -->
+    <section id="otvi" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4 accent-green">Olabuchi Technical & Vocational Institute (OTVI)</h2>
+            <p class="text-gray-600 max-w-4xl mx-auto mb-10">
+                OTVI is our commitment to quality. We ensure our staff are the most knowledgeable in the region, providing accredited training in Solar Installation, Electrical Wiring, and Project Management.
+            </p>
+            <a href="#contact" class="bg-[#1a56cc] text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-[#1a56cc]/90 transition duration-300">
+                Learn About Staff Certification
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Form (Site Survey Request) -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-8 accent-blue">Request a Site Survey</h2>
+            <form id="siteSurveyForm" class="space-y-6 p-6 rounded-xl shadow-2xl border border-gray-100">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                    <input type="text" id="name" name="name" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:border-[#1a56cc] focus:ring focus:ring-[#1a56cc]/50">
+                </div>
+                <div>
+                    <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:border-[#1a56cc] focus:ring focus:ring-[#1a56cc]/50" value="07062613125">
+                </div>
+                <div>
+                    <label for="service" class="block text-sm font-medium text-gray-700">Type of Service Needed</label>
+                    <select id="service" name="service" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:border-[#1a56cc] focus:ring focus:ring-[#1a56cc]/50">
+                        <option value="">Select a Service</option>
+                        <option value="Solar">Solar Installation</option>
+                        <option value="Electrical">General Electrical Repair / Wiring</option>
+                        <option value="HVAC">AC / HVAC Maintenance</option>
+                        <option value="Security">CCTV / Security System</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Project Details (Address/Location)</label>
+                    <textarea id="message" name="message" rows="4" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:border-[#1a56cc] focus:ring focus:ring-[#1a56cc]/50"></textarea>
+                </div>
+                <button type="submit" class="w-full btn-primary py-3 rounded-lg text-lg text-[#1a56cc] font-bold">
+                    Submit Survey Request
+                </button>
+                <div id="formMessage" class="hidden mt-4 p-3 rounded-lg text-center font-semibold bg-green-100 text-green-700">
+                    Thank you! Your site survey request has been submitted. We will contact you soon!
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="hero-bg text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-xl font-bold mb-3">Olabuchi Electrical Enterprises</h3>
+            <div class="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-8 text-gray-300 mb-6 text-sm">
+                <a href="mailto:mysuccessjourney23@gmail.com" class="hover:text-white">Email: mysuccessjourney23@gmail.com</a>
+                <a href="tel:07062613125" class="hover:text-white">Phone: 07062613125</a>
+            </div>
+            
+            <!-- Social Links -->
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://wa.me/07062613125" target="_blank" class="text-gray-300 hover:accent-yellow">WhatsApp</a>
+                <a href="https://x.com/clementsuc9881" target="_blank" class="text-gray-300 hover:accent-yellow">X (Twitter)</a>
+                <a href="#" target="_blank" class="text-gray-300 hover:accent-yellow">LinkedIn</a>
+            </div>
+
+            <p class="text-xs text-gray-400 mt-4">&copy; 2025 Olabuchi Electrical Enterprises. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('siteSurveyForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // In a live environment, you would use fetch() here to send data to a backend server.
+            // Since this is a single HTML file, we simulate success:
+            document.getElementById('formMessage').classList.remove('hidden');
+            this.reset();
+        });
+    </script>
+
+</body>
+</html>
+
+
