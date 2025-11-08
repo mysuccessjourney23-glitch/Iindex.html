@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLDMAN ANALYST - Premium FX Signals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0d1a26; color: white; }
+        .hero-bg { background: linear-gradient(135deg, #0d1a26 0%, #1c324f 100%); }
+        .accent { color: #ffbf00; }
+        .btn-primary { background-color: #ffbf00; color: #0d1a26; transition: all 0.3s; font-weight: 700; }
+        .btn-primary:hover { background-color: #fff; }
+        .card-bg { background-color: #1c324f; }
+        /* Icon styles (to replace images) */
+        .logo-text { font-size: 1.5rem; font-weight: 800; }
+    </style>
+</head>
+<body class="text-gray-100">
+
+    <!-- Navigation -->
+    <header class="bg-[#0d1a26] shadow-lg sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="logo-text accent">GOLDMAN ANALYST</span>
+            </div>
+            <div class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#" class="text-gray-300 hover:accent hover:text-[#ffbf00]">Home</a>
+                <a href="#signals" class="text-gray-300 hover:accent hover:text-[#ffbf00]">Signals</a>
+                <a href="#about" class="text-gray-300 hover:accent hover:text-[#ffbf00]">Expertise</a>
+                <a href="#contact" class="text-gray-300 hover:accent hover:text-[#ffbf00]">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-gray-300 hover:accent">
+                    <!-- Placeholder for Mobile Menu Icon -->
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl sm:text-7xl font-extrabold mb-4 leading-tight">
+                    Precision FX Signals. <span class="accent">Disciplined Growth.</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-300 mb-8">
+                    Gain the Goldman Advantage: Data-driven analysis, advanced risk management, and the mentorship to achieve consistent profitability.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#signals" class="btn-primary py-3 px-8 rounded-full shadow-xl text-lg hover:shadow-2xl transition duration-300">
+                        View Premium Access
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signal Service & Pricing -->
+    <section id="signals" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-10">Premium Signal Access Tiers</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Tier 1: Analysis Only (Free Tier Funnel) -->
+                <div class="p-8 card-bg rounded-xl shadow-2xl border-t-4 border-gray-600">
+                    <h3 class="text-2xl font-bold mb-3">Community Access</h3>
+                    <p class="text-gray-400 mb-6">Daily Market Insights & Weekly Forecast</p>
+                    <p class="text-4xl font-extrabold mb-6">₦0<span class="text-lg font-normal"> / month</span></p>
+                    <ul class="text-left space-y-3 text-gray-300 mb-8">
+                        <li>✅ Macroeconomic Overview</li>
+                        <li>✅ Weekly YouTube Analysis</li>
+                        <li>❌ Live Entry/Exit Signals</li>
+                        <li>❌ 1:1 Risk Consultation</li>
+                    </ul>
+                    <a href="https://t.me/goldmananalyst" target="_blank" class="w-full block bg-gray-600 text-white py-3 rounded-lg hover:bg-gray-700 transition">
+                        Join Free Telegram
+                    </a>
+                </div>
+
+                <!-- Tier 2: Premium Signals -->
+                <div class="p-8 card-bg rounded-xl shadow-2xl border-t-4 border-[#ffbf00]">
+                    <h3 class="text-3xl font-bold mb-3 accent">Premium Trader</h3>
+                    <p class="text-gray-400 mb-6">High-Precision, Low-Volume Signals</p>
+                    <p class="text-5xl font-extrabold mb-6 accent">₦35,000<span class="text-lg font-normal text-gray-200"> / month</span></p>
+                    <ul class="text-left space-y-3 text-gray-200 mb-8">
+                        <li>✅ Verified Live Signals (3-5/week)</li>
+                        <li>✅ Strict 1:2 Risk-Reward Ratio</li>
+                        <li>✅ Daily Trade Breakdown Videos</li>
+                        <li>❌ 1:1 Consultation Access</li>
+                    </ul>
+                    <button id="subscribeBtn" class="w-full btn-primary py-3 rounded-lg text-lg">
+                        Subscribe Now
+                    </button>
+                </div>
+
+                <!-- Tier 3: Elite Mentorship (Link to EE) -->
+                <div class="p-8 card-bg rounded-xl shadow-2xl border-t-4 border-gray-600">
+                    <h3 class="text-2xl font-bold mb-3">Elite Strategy</h3>
+                    <p class="text-gray-400 mb-6">Signals + Mindset Coaching + Strategy</p>
+                    <p class="text-4xl font-extrabold mb-6">Link to EE</p>
+                    <ul class="text-left space-y-3 text-gray-300 mb-8">
+                        <li>✅ Full Premium Signal Access</li>
+                        <li>✅ Access to EE Mastermind Group</li>
+                        <li>✅ 1:1 Monthly Strategy Session</li>
+                        <li>✅ Psychology & Discipline Training</li>
+                    </ul>
+                    <a href="index.html" class="w-full block bg-gray-600 text-white py-3 rounded-lg hover:bg-gray-700 transition">
+                        View EE Institute
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="about" class="py-16 card-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-10">The Goldman Philosophy</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2 accent">Risk First</h3>
+                    <p class="text-gray-400 text-sm">We protect capital aggressively. No signal is given without a clear stop-loss and a minimum 1:2 R:R profile.</p>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2 accent">Analysis Driven</h3>
+                    <p class="text-gray-400 text-sm">Our signals combine high-level macro insights with precise institutional supply/demand technical analysis.</p>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2 accent">Psychology Trained</h3>
+                    <p class="text-gray-400 text-sm">We teach the discipline (from EE Institute) required to follow signals and avoid impulsive trading errors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-[#0d1a26] text-white py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-2xl font-bold mb-2 accent">GOLDMAN ANALYST</h3>
+            <p class="text-gray-400 mb-6">Disclaimer: Trading foreign exchange carries a high level of risk. Only risk capital should be used.</p>
+
+            <!-- Contact and Social Links -->
+            <div class="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-8 text-gray-300 mb-8">
+                <a href="mailto:mysuccessjourney23@gmail.com" class="hover:accent hover:text-[#ffbf00]">Email: mysuccessjourney23@gmail.com</a>
+                <a href="tel:07062613125" class="hover:accent hover:text-[#ffbf00]">Phone: 07062613125</a>
+                <div class="flex justify-center space-x-6">
+                    <a href="https://wa.me/07062613125" target="_blank" class="hover:accent hover:text-[#ffbf00]">WhatsApp</a>
+                    <a href="https://x.com/clementsuc9881" target="_blank" class="hover:accent hover:text-[#ffbf00]">X (Twitter)</a>
+                    <a href="#" target="_blank" class="hover:accent hover:text-[#ffbf00]">LinkedIn</a>
+                </div>
+            </div>
+
+            <p class="text-sm text-gray-500 mt-4">&copy; 2025 Goldman Analyst. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('subscribeBtn').addEventListener('click', function() {
+            alert('Payment simulation: You would be redirected to a payment gateway (e.g., PayPal/Flutterwave) to complete the ₦35,000 subscription.');
+        });
+        
+        function alert(message) {
+            const modal = document.createElement('div');
+            modal.style.cssText = 'position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); display: flex; justify-content: center; align-items: center; z-index: 1000;';
+            modal.innerHTML = `
+                <div class="bg-white p-6 rounded-lg shadow-2xl max-w-sm text-center">
+                    <h4 class="text-xl font-bold mb-4 text-[#0d1a26]">Subscription Notice</h4>
+                    <p class="text-gray-700 mb-6">${message}</p>
+                    <button onclick="document.body.removeChild(this.parentElement.parentElement)" class="bg-[#ffbf00] text-[#0d1a26] font-semibold py-2 px-6 rounded-lg hover:bg-[#ffc933]">
+                        OK
+                    </button>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+    </script>
+
+</body>
+</html>
+
+
